@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Professional Contact Form</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #4c7fff, #6dd5fa, #ffffff);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-container {
+        width: 380px;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(12px);
+        border-radius: 20px;
+        padding: 30px 35px;
+        box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+        color: #fff;
+    }
+
+    .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        outline: none;
+        background: rgba(255, 255, 255, 0.7);
+    }
+
+    textarea {
+        resize: none;
+        height: 90px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        background: #002B5B;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #001F3F;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="form-container">
+    <h2>Contact Us</h2>
+
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your full name">
+
+    <label>Email Address</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Message</label>
+    <textarea placeholder="Write your message..."></textarea>
+
+    <button type="submit">Send Message</button>
+</div>
+
+</body>
+</html>
