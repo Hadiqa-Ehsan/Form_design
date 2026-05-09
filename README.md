@@ -22,19 +22,17 @@ A clean and stylish web-based form design built with HTML and CSS. Perfect for c
 
 ```
 Form_design/
-├── index.html      # Main form page
-├── style.css       # Styling and responsive design
-├── script.js       # Form validation logic
-└── README.md       # Documentation
+├── Form.html      # Main form page
+
 ```
 
 ## 🔧 How to Run
 
 1. Download or clone the project
 2. Navigate to the project folder
-3. Open `index.html` in your web browser
+3. Open `form.html` in your web browser
 
-Or simply double-click the `index.html` file.
+Or simply double-click the `form.html` file.
 
 ## 📖 Form Fields Included
 
